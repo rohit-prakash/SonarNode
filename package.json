@@ -1,0 +1,9 @@
+{
+  "name": "sonar-node",
+  "version": "0.0.0",
+  "description": "SonarNode",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

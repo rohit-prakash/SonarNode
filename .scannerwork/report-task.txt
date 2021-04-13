@@ -1,0 +1,6 @@
+projectKey=SonarNode
+serverUrl=https://sonarqube-zd2mjfgzvtonk.azurewebsites.net
+serverVersion=7.7.0.23042
+dashboardUrl=https://sonarqube-zd2mjfgzvtonk.azurewebsites.net/dashboard?id=SonarNode
+ceTaskId=AXjKAc82xB-WMYYrRI1N
+ceTaskUrl=https://sonarqube-zd2mjfgzvtonk.azurewebsites.net/api/ce/task?id=AXjKAc82xB-WMYYrRI1N

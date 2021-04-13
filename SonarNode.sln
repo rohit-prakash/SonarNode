@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SonarNode", "SonarNode.njsproj", "{91C2DD0D-9F78-4F3C-A648-25E1D880DFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C2DD0D-9F78-4F3C-A648-25E1D880DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C2DD0D-9F78-4F3C-A648-25E1D880DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C2DD0D-9F78-4F3C-A648-25E1D880DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C2DD0D-9F78-4F3C-A648-25E1D880DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7047149-F89F-4EA1-AA68-4CC6636534E0}
+	EndGlobalSection
+EndGlobal
