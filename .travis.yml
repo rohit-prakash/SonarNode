@@ -5,7 +5,11 @@ addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
+  sonarcloud:
+    organization: "rohit-prakash"
+    token: SonarNode
 before_script:
   - npm install
 script:
   - npm build --prod
+  - sonar-scanner
