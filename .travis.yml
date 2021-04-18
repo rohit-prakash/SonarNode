@@ -7,7 +7,11 @@ addons:
       - ubuntu-toolchain-r-test
   sonarcloud:
     organization: "rohit-prakash"
-    token: $SonarNode
+    token:
+      secure: "T16NCSHB3AHpLOfKup621PcLTl/9I3Zb2RtARvY3AIJ/3ftUSE1G6IFz2jxfloWw4kePbWrXEIKcOJZktd1uW3gl5UBiXowKGOziSHS+b24O6ZP+tjdEEA1mMM4+WnJXzN42dTC782tTl98hVt2xx2beFHHamD2zLu0J+A6hg/Hrat3mxbsS7uDYAqbDgH4+JJeeBan9Q5vOh9TXSw4n0FwfZrvL5I8AmZ4zKSHr8A683mfyFiXYPFQwWDeL6yIoJ1lcPlx6Dg4FdkupWjAWwhEcldiaLkk/i/5vr/tS25/DNJfYNklobdA1umFExt4RhZV2oZFCVxSzvKfTVJxTiSdXP3ho5SDRZzsejR7McBg+9bdO8UE7q7DGy3K5cTOrMe/8CTF+UjYkmj6jIIONb5pJk9FDujp6XFz//kDprKezb2CIpn3Q2RCSjYihCLZFC1dg/tIp9YtH1Pxi2rlP64WlKFVzlFK5HUk30CTfkJgMTXtmtb0Oue78c91VIunpSD4FpKZHqGlm4BTY+x2qWvrUvcel7XOJxiViA+7mCZUiMyj8PRi3QPvDGN3ZDwmawMHhqSw4143UZoLdg3knNEmCL4y86aDFF221kginyR8yQPzjO/7waN8o8tsP9WKalqOxOlPDa/nERdEpZXItakcfTM3t0av8nrmHPwtIDgo=" # encrypted value of your token
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
 before_script:
   - npm install
 script:
